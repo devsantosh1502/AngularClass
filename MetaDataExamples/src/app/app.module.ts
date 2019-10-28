@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { InputoutputComponent } from './inputoutput/inputoutput.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    InputoutputComponent
   ],
   imports: [
     BrowserModule
